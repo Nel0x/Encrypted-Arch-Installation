@@ -22,7 +22,7 @@ ______________________________________________________________________________
 
 ## BIOS Configuration
 
-Hold F12 (or whatever key is used on your system) during startup to access bios. Then...
+Hold F12 (or whatever key is used on your system) during startup to access bios. Then ...
 
 - **Make sure UEFI is ON**. Most modern systems use UEFI, so it's generally on by default.
 
@@ -53,7 +53,7 @@ ______________________________________________________________________________
 
 # Installation Steps
 
-Here we go...
+Here we go ...
 
 ## Boot Arch from the USB Drive
 

@@ -537,26 +537,26 @@ ______________________________________________________________________________
 First create an 8GB file:
 
 ```
-dd if=/dev/zero of=/swapfile bs=1M count=8192 status=progress
+#   dd if=/dev/zero of=/swapfile bs=1M count=8192 status=progress
 ```
 
 Then adjust the permissions:
 
 ```
-chmod 600 /swapfile
+#   chmod 600 /swapfile
 ```
 
 Create and Activate the swap:
 
 ```
-mkswap /swapfile
-swapon /swapfile
+#   mkswap /swapfile
+#   swapon /swapfile
 ```
 
 Add the swapfile to your **fstab** to use it on Boot-up
 
 ```
-echo '/swapfile none swap defaults 0 0' >> /etc/fstab
+#   echo '/swapfile none swap defaults 0 0' >> /etc/fstab
 ```
 ______________________________________________________________________________
 

@@ -68,7 +68,7 @@ The most reliable way is to use a wired connection, as Arch is setup by default 
 #   iwctl
 ```
 ```
-#   station wlan0 connect <SSID>
+station wlan0 connect <SSID>
 ```
 
 To test your connection:

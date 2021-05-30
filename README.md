@@ -80,30 +80,10 @@ ______________________________________________________________________________
 
 ## Increase Terminal Font Size
 
-If the terminal font is too small, which can happen if you have a high res display, then install terminus fonts.
-
-First, update the pacman databases:
+If the terminal font is too small, which can happen if you have a high res display, then increase terminus font size.
 
 ```
-#   pacman -Syy
-```
-
-Then install the fonts:
-
-```
-#   pacman -S terminus-font
-```
-
-Update font cache:
-
-```
-#   fc-cache -fv
-```
-
-Set the font to a large size:
-
-```
-#   setfont ter-v32b
+#   setfont ter-132n
 ```
 ______________________________________________________________________________
 

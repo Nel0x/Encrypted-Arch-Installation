@@ -65,7 +65,10 @@ ______________________________________________________________________________
 The most reliable way is to use a wired connection, as Arch is setup by default to connect to DHCP. However, you can usually get WiFi working by running:
 
 ```
-#   wifi-menu
+#   iwctl
+```
+```
+#   station wlan0 connect <SSID>
 ```
 
 To test your connection:

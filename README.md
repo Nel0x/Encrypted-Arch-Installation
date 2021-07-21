@@ -279,7 +279,7 @@ Install *Reflector*:
 **Note:** First make a backup copy of the mirrorlist file:
 
 ```
-#   sudo cp /etc/pacman.d/mirrorlist /etc/pacman.d/mirrorlist.backup
+#   cp /etc/pacman.d/mirrorlist /etc/pacman.d/mirrorlist.backup
 ```
 
 Now generate the new mirrorlist.

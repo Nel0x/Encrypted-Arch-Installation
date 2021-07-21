@@ -511,7 +511,7 @@ Then run the following command, which will open the sudoers file:
 Find this line and remove *only* the hashtag:
 
 ```
-#%wheel ALL=(ALL) ALL
+# %wheel ALL=(ALL) ALL
 ```
 ______________________________________________________________________________
   

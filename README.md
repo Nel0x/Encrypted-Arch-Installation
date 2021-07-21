@@ -154,7 +154,7 @@ Before we setup our LVM we need to encrypt the root partition we just created. I
 **Note:** For drives larger than 2TB use `aes-xts-plain64` instead of `aes-xts-plain`
 
 ```
-#   cryptsetup luksFormat -c aes-xts-plain -y -s 512 -h sha512 /dev/sd*
+#   cryptsetup luksFormat -c aes-xts-plain -y -s 512 -h sha512 /dev/sd*3
 ```
 
 Now let's decrypt it so we can use it.

@@ -459,10 +459,10 @@ Run this command and answer the questions to find your timezone:
 
 Now use the timezone you just looked up to create a symbolic link to `/etc/localtime`
 
-**Note:** Be sure to change `America/Denver` to your timezone.
+**Note:** Be sure to change `Europe/Berlin` to your timezone.
 
 ```
-#   ln -sf /usr/share/zoneinfo/America/Denver /etc/localtime
+#   ln -sf /usr/share/zoneinfo/Europe/Berlin /etc/localtime
 ```
 
 Update the hardware clock. I use UTC:

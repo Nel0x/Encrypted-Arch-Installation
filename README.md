@@ -74,7 +74,7 @@ station wlan0 connect <SSID>
 To test your connection:
 
 ```
-#   ping -c 5 google.com
+#   ping -c 5 archlinux.de
 ```
 ______________________________________________________________________________
 
@@ -283,10 +283,10 @@ Install *Reflector*:
 ```
 
 Now generate the new mirrorlist.
-**Note:** If you are in a different country change `United States` to your country.
+**Note:** If you are in a different country change `Germany` to your country.
 
 ```
-#   reflector --verbose --country 'United States' -l 5 -p https --sort rate --save /etc/pacman.d/mirrorlist
+#   reflector --verbose --country 'Germany' -l 5 -p https --sort rate --save /etc/pacman.d/mirrorlist
 ```
 
 Now refresh the package list:

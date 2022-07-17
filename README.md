@@ -42,10 +42,10 @@ All references to disk nodes in this document are shown as:
 You will need to change `sd*` to the actual node name you want to use on your drive. To get this info use either of these commands:
 
 ```
-fdisk -l
+#   fdisk -l
 ```
 ```
-lsblk
+#   lsblk
 ```
 
 Drive nodes might be called "sda", "sdb", etc., or they might be something completely different. On my HP Envy, for example, they are called "nvme0n1" to indicate they are interfaced via PCIe.
@@ -301,7 +301,7 @@ ______________________________________________________________________________
 First install only an Arch base with no additional packages:
 
 ```
-pacstrap -i /mnt base base-devel
+#   pacstrap -i /mnt base base-devel
 ```
 ______________________________________________________________________________
 
@@ -432,7 +432,7 @@ ______________________________________________________________________________
 Open the locale.gen file and uncomment `en_US.UTF-8` and other needed [locales](https://wiki.archlinux.org/index.php/Locale):
 
 ```
-nano /etc/locale.gen
+#   nano /etc/locale.gen
 ```
 
 **Note:** You need to uncomment `en_US.UTF-8` in every case, no matter in wich country you are.

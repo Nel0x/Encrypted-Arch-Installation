@@ -359,7 +359,7 @@ Also uncomment:
 #   mount /dev/sd*1 /boot/EFI
 ```
 
-## Install Grub
+## Install GRUB
 
 Execute the following command to install the GRUB EFI application `grubx64.efi` to `/boot/EFI/grub_uefi/` and install its modules to `/boot/grub/x86_64-efi/`:
 

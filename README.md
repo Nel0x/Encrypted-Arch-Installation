@@ -117,11 +117,10 @@ Now run the following commands with your particular size values. Sizes can be sp
 
 ```
 n
+ef (for EFI)
 ENTER
 ENTER
 +500M
-t
-1 (for EFI)
 ```
 
 #### Boot partition
@@ -137,11 +136,10 @@ ENTER
 
 ```
 n
+8e (for Linux LVM)
 ENTER
 ENTER
 ENTER (left space)
-t
-30 (Linux LVM)
 ```
 
 Then control it with `p`(for print) and save it with `w`(for write).

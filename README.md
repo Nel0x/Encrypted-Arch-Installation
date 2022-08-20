@@ -129,6 +129,7 @@ ENTER
 n
 ENTER
 ENTER
+ENTER
 +500M
 ```
 
@@ -474,7 +475,7 @@ Update the hardware clock. I use UTC:
 This is the name of your computer. I name mine "Arch", but you can change it to whatever you want your host to be.
 
 ```
-#   echo Arch > /etc/hostname
+#   echo ArchMachine > /etc/hostname
 ```
 ______________________________________________________________________________
 
@@ -515,7 +516,7 @@ ______________________________________________________________________________
   
 # Set-up swap
 
-First create an 8GB file:
+First create a file with e.g. 8GB of random data:
 
 ```
 #   dd if=/dev/zero of=/swapfile bs=1M count=8192 status=progress
